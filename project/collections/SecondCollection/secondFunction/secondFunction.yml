@@ -1,0 +1,29 @@
+---
+id: "second-func-1"
+name: "secondFunction"
+collectionName: "SecondCollection"
+description: "Second function description"
+code: "function secondFunction(flag, items) {\n  console.log('Second function called\
+  \ with:', flag, items);\n  if (!flag) {\n    return 'Flag is false';\n  }\n  if\
+  \ (!items || items.length === 0) {\nreturn 'No items provided';\n  }\n  return 'Processing\
+  \ items: ' + items.join(', ');\n}"
+responseDescription: "Returns processing result"
+parameters:
+- name: "flag"
+  type: "boolean"
+  required: true
+  description: "A boolean flag"
+  properties: null
+  items: null
+- name: "items"
+  type: "array"
+  required: false
+  description: "List of items"
+  properties: null
+  items:
+    name: "item"
+    type: "string"
+    required: true
+    description: "Array item"
+    properties: null
+    items: null
