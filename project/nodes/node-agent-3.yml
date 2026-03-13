@@ -1,0 +1,30 @@
+---
+id: "node-agent-3"
+nodeName: "Test Agent"
+nodeType: "AGENT"
+position:
+  x: 500
+  "y": 600
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: "Ты полезный ассистент"
+    goal: "Помогай пользователю решать задачи"
+    instructions: "Используй доступные функции для выполнения запросов пользовател\
+      я. Будь вежливым и точным."
+    queryOverride: null
+  llmSettings:
+    maxTokens: 2000
+    temperature: 0.7
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "test-llm-model"
+  tools:
+  - "tool-func-1"
+  - "tool-func-2"
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: true
