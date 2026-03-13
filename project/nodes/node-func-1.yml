@@ -1,0 +1,19 @@
+---
+id: "node-func-1"
+nodeName: "First Function Node"
+nodeType: "FUNCTION"
+position:
+  x: 100
+  "y": 200
+nextStep: "node-code-2"
+parameters: !<FUNCTION>
+  functionId: "first-func-1"
+  isTool: false
+  isSystem: false
+  parameters:
+    param1: !<STRING>
+      value: "test value"
+      filledAi: false
+    param2: !<NUMBER>
+      value: "42"
+      filledAi: false
