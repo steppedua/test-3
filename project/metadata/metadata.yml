@@ -1,8 +1,8 @@
 ---
-exportVersion: "1"
-exportedAt: "2026-03-10T11:20:29.245518Z"
-projectId: "my-test-project-1"
-projectName: "my-test-project-1"
+exportVersion: "1.0"
+exportedAt: "2026-03-13T18:42:32.784405Z"
+projectId: "my_test_project-1000001-CeF"
+projectName: "my_test_project-1000001-CeF"
 accountId: 1000001
 language: null
 timezone: null
