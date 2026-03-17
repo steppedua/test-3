@@ -1,5 +1,5 @@
 ---
-id: "tool-func-1"
+id: "state_4"
 nodeName: "Tool: First Function"
 nodeType: "FUNCTION"
 position:
@@ -7,7 +7,7 @@ position:
   "y": 400
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "first-func-1"
+  functionId: "69b9528ad864f7255ba4500d"
   isTool: true
   isSystem: false
   parameters:

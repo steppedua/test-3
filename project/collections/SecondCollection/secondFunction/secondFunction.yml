@@ -1,5 +1,5 @@
 ---
-id: "second-func-1"
+id: "69b9528ad864f7255ba4500f"
 name: "secondFunction"
 collectionName: "SecondCollection"
 description: "Second function description"
@@ -10,20 +10,20 @@ code: "function secondFunction(flag, items) {\n  console.log('Second function ca
 responseDescription: "Returns processing result"
 parameters:
 - name: "flag"
-  type: "boolean"
+  type: "BOOLEAN"
   required: true
   description: "A boolean flag"
   properties: null
   items: null
 - name: "items"
-  type: "array"
+  type: "ARRAY"
   required: false
   description: "List of items"
   properties: null
   items:
-    name: "item"
-    type: "string"
-    required: true
+    name: ""
+    type: "STRING"
+    required: false
     description: "Array item"
     properties: null
     items: null

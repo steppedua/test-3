@@ -1,5 +1,5 @@
 ---
-id: "second-func-2"
+id: "69b9528ad864f7255ba45010"
 name: "anotherSecondFunction"
 collectionName: "SecondCollection"
 description: "Another second function description"
@@ -8,7 +8,7 @@ code: "function anotherSecondFunction(text) {\n  console.log('Another second fun
 responseDescription: "Returns processed text"
 parameters:
 - name: "text"
-  type: "string"
+  type: "STRING"
   required: true
   description: "Text to process"
   properties: null
