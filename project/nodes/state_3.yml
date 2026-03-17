@@ -1,5 +1,5 @@
 ---
-id: "node-agent-3"
+id: "state_3"
 nodeName: "Test Agent"
 nodeType: "AGENT"
 position:
@@ -20,10 +20,10 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "test-llm-model"
+  llmModelKey: "1000001-gpt4_test_model-ytw"
   tools:
-  - "tool-func-1"
-  - "tool-func-2"
+  - "state_4"
+  - "state_5"
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []

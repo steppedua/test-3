@@ -1,5 +1,5 @@
 ---
-id: "first-func-2"
+id: "69b96ae91269804f584f69c9"
 name: "anotherFirstFunction"
 collectionName: "FirstCollection"
 description: "Another first function description"
@@ -9,7 +9,7 @@ code: "function anotherFirstFunction(count) {\n  console.log('Another first func
 responseDescription: "Returns array of items"
 parameters:
 - name: "count"
-  type: "integer"
+  type: "INTEGER"
   required: true
   description: "Number of items"
   properties: null

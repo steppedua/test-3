@@ -1,13 +1,13 @@
 ---
-id: "node-func-1"
+id: "state_1"
 nodeName: "First Function Node"
 nodeType: "FUNCTION"
 position:
   x: 100
   "y": 200
-nextStep: "node-code-2"
+nextStep: "state_2"
 parameters: !<FUNCTION>
-  functionId: "first-func-1"
+  functionId: "69b96ae91269804f584f69c8"
   isTool: false
   isSystem: false
   parameters:

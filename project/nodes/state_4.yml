@@ -1,20 +1,19 @@
 ---
-id: "tool-func-2"
-nodeName: "Tool: Second Function"
+id: "state_4"
+nodeName: "Tool: First Function"
 nodeType: "FUNCTION"
 position:
   x: 800
-  "y": 600
+  "y": 400
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "second-func-1"
+  functionId: "69b96ae91269804f584f69c8"
   isTool: true
   isSystem: false
   parameters:
-    flag: !<BOOLEAN>
+    param1: !<STRING>
       value: null
       filledAi: true
-    items: !<ARRAY>
+    param2: !<NUMBER>
       value: null
-      items: null
       filledAi: true
