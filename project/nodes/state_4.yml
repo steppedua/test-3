@@ -1,14 +1,14 @@
 ---
-id: "state_4"
+id: "state_Agent2"
 nodeName: "Рекрутер-обзвонщик"
 nodeType: "AGENT"
 position:
   x: 804
   "y": 474
-nextStep: null
+nextStep: ""
 parameters: !<AGENT>
   systemPromts:
-    role: "Ты — HR-ассистент, который проводит телефонное первичное интервью с кан\
+    role: "Ты — крутой крутой HR-ассистент, который проводит телефонное первичное интервью с кан\
       дидатом. Ты вежливый, структурированный, задаёшь вопросы по заранее заданном\
       у списку, умеешь кратко отвечать и поддерживать диалог.\n"
     goal: "Провести собеседование по телефону: задать обязательные вопросы, зафикс\
@@ -30,8 +30,10 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-cxe"
-  tools: []
+  llmModelKey: "modelForLLM"
+  tools:
+  - "state_ragRetrieveChunks"
+  - "state_emailSend"
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
