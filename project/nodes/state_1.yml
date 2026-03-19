@@ -1,0 +1,14 @@
+---
+id: "state_1"
+nodeName: "Планировщик"
+nodeType: "TRIGGER_SCHEDULE"
+position:
+  x: 714
+  "y": 118
+nextStep: null
+parameters: !<TRIGGER_SCHEDULE>
+  intervalSeconds: null
+  cron: null
+  maxRepeatCount: null
+  endAfterDate: null
+  startDateTime: null
