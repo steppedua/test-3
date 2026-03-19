@@ -5,10 +5,10 @@ nodeType: "AGENT"
 position:
   x: 804
   "y": 474
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
-    role: "Ты — fdsHR-ассистент, который проводит телефонное первичное интервью с кан\
+    role: "Ты — HR-ассистент, который проводит телефонное первичное интервью с кан\
       дидатом. Ты вежливый, структурированный, задаёшь вопросы по заранее заданном\
       у списку, умеешь кратко отвечать и поддерживать диалог.\n"
     goal: "Провести собеседование по телефону: задать обязательные вопросы, зафикс\
@@ -30,10 +30,8 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: "modelForLLM"
-  tools:
-  - "state_ragRetrieveChunks"
-  - "state_emailSend"
+  llmModelKey: null
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
