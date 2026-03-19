@@ -1,11 +1,11 @@
 ---
-id: "state_condition"
+id: "state_5"
 nodeName: "Условие"
 nodeType: "CONDITION"
 position:
   x: 384
   "y": 297
-nextStep: "state_Agent1"
+nextStep: "state_3"
 parameters: !<CONDITION>
   condition: "Context.getChannelType() == \"telegram\""
-  falseStep: "state_Agent2"
+  falseStep: "state_4"
