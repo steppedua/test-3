@@ -5,7 +5,7 @@ nodeType: "AGENT"
 position:
   x: 817
   "y": 149
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "Собиратель анкеты для обзвона"
@@ -21,7 +21,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.09
     presencePenalty: 0.09
     verboseMode: true
-  llmModelKey: "modelForLLM"
+  llmModelKey: "1000001-open_ai_gpt41-cfp"
   tools: []
   handoffAgents:
     allowedAny: false
