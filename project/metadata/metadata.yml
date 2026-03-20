@@ -1,13 +1,17 @@
----
-exportVersion: "1.0"
-exportedAt: "2026-03-13T19:54:21.363821Z"
-projectId: "my_test_project-1000001-Jbp"
-projectName: "my_test_project-1000001-Jbp"
+exportVersion: 1
+exportedAt: 2026-03-20T12:00:39.411542Z
+projectId: my_test_project-1000001-xPF
+projectName: my_test_project-1000001-xPF
 accountId: 1000001
 language: null
 timezone: null
-importInstructions: "This archive contains an Agent Platform project export.\n\nIMPORTANT:\
-  \ Sensitive data (credentials, API keys) are NOT included in this export.\nAfter\
-  \ import, you will need to:\n1. Fill in credential placeholders in credentials.json\n\
-  2. Set up LLM integration keys referenced in agent nodes\n3. Verify all integrations\
-  \ are properly connected\n\nSee detailed import instructions in the documentation."
+importInstructions: |-
+  This archive contains an Agent Platform project export.
+
+  IMPORTANT: Sensitive data (credentials, API keys) are NOT included in this export.
+  After import, you will need to:
+  1. Fill in credential placeholders in credentials.json
+  2. Set up LLM integration keys referenced in agent nodes
+  3. Verify all integrations are properly connected
+
+  See detailed import instructions in the documentation.
