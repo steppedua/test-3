@@ -1,10 +1,10 @@
-exportVersion: 1
-exportedAt: 2026-03-20T12:00:39.411542Z
+exportVersion: 2
+exportedAt: 2026-03-20T12:05:06.798106Z
 projectId: my_test_project-1000001-xPF
 projectName: my_test_project-1000001-xPF
 accountId: 1000001
-language: null
-timezone: null
+language: ru
+timezone: UTC
 importInstructions: |-
   This archive contains an Agent Platform project export.
 

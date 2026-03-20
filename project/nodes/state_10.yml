@@ -1,0 +1,10 @@
+id: state_10
+nodeName: Условие
+nodeType: CONDITION
+position:
+  x: 384
+  "y": 297
+nextStep: null
+parameters: !<CONDITION>
+  condition: Context.getChannelType() == "telegram"
+  falseStep: state_7
