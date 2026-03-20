@@ -4,7 +4,7 @@ nodeType: AGENT
 position:
   x: 804
   "y": 474
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: |
@@ -27,10 +27,8 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: modelForLLM
-  tools:
-  - state_ragRetrieveChunks
-  - state_emailSend
+  llmModelKey: null
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []

@@ -14,7 +14,7 @@ parameters: !<FUNCTION>
       value: "null"
       filledAi: false
     recipients: !<ARRAY>
-      value: "null"
+      value: null
       items: null
       filledAi: true
     subject: !<STRING>
@@ -22,8 +22,4 @@ parameters: !<FUNCTION>
       filledAi: false
     content: !<STRING>
       value: "null"
-      filledAi: true
-    attachments: !<ARRAY>
-      value: "[]"
-      items: null
       filledAi: true
