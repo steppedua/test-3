@@ -10,8 +10,8 @@ parameters: !<FUNCTION>
   isTool: true
   isSystem: true
   parameters:
-    ragIntegration: !<INTEGRATION_RAG>
-      value: null
+    ragIntegrationKey: !<STRING>
+      value: ""
       filledAi: false
     query: !<STRING>
       value: "null"

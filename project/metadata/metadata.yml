@@ -1,10 +1,10 @@
-exportVersion: 4
-exportedAt: 2026-03-20T16:31:23.735071Z
-projectId: my_test_project-1000001-PBu
-projectName: my_test_project-1000001-PBu
+exportVersion: 1
+exportedAt: 2026-03-20T16:47:21.498889Z
+projectId: my_test_project-1000001-pzG
+projectName: my_test_project-1000001-pzG
 accountId: 1000001
-language: ru
-timezone: UTC
+language: null
+timezone: null
 importInstructions: |-
   This archive contains an Agent Platform project export.
 

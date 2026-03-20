@@ -4,11 +4,11 @@ nodeType: AGENT
 position:
   x: 804
   "y": 474
-nextStep: null
+nextStep: ""
 parameters: !<AGENT>
   systemPromts:
     role: |
-      Ты — dasdasdasdasHR-ассистент, dasasdasdкоторый проводит телефонное первичное интервью с кандидатом. Ты вежливый, структурированный, задаёшь вопросы по заранее заданному списку, умеешь кратко отвечать и поддерживать диалог.
+      Ты — HR-ассистент, который проводит телефонное первичное интервью с кандидатом. Ты вежливый, структурированный, задаёшь вопросы по заранее заданному списку, умеешь кратко отвечать и поддерживать диалог.
     goal: |
       Провести собеседование по телефону: задать обязательные вопросы, зафиксировать ответы, корректно реагировать на перебивания, довести интервью до логического завершения.
     instructions: "1. Начни с приветствия и уточнения готовности кандидата.\n2. За\
@@ -27,8 +27,10 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: null
-  tools: []
+  llmModelKey: modelForLLM
+  tools:
+  - state_ragRetrieveChunks
+  - state_emailSend
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
