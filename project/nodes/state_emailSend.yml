@@ -1,13 +1,12 @@
----
-id: "state_emailSend"
-nodeName: "Email.send"
-nodeType: "FUNCTION"
+id: state_emailSend
+nodeName: Email.send
+nodeType: FUNCTION
 position:
   x: 1046
   "y": 904
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "2d0e83acd0863ae64a78b076"
+  functionId: 2d0e83acd0863ae64a78b076
   isTool: true
   isSystem: true
   parameters:
@@ -19,7 +18,7 @@ parameters: !<FUNCTION>
       items: null
       filledAi: true
     subject: !<STRING>
-      value: "Результат скрининга"
+      value: Результат скрининга
       filledAi: false
     content: !<STRING>
       value: "null"
