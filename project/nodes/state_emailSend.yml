@@ -1,0 +1,30 @@
+---
+id: "state_emailSend"
+nodeName: "Email.send"
+nodeType: "FUNCTION"
+position:
+  x: 1046
+  "y": 904
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "2d0e83acd0863ae64a78b076"
+  isTool: true
+  isSystem: true
+  parameters:
+    smtpIntegration: !<INTEGRATION_SMTP>
+      value: "null"
+      filledAi: false
+    recipients: !<ARRAY>
+      value: "null"
+      items: null
+      filledAi: true
+    subject: !<STRING>
+      value: "Результат скрининга"
+      filledAi: false
+    content: !<STRING>
+      value: "null"
+      filledAi: true
+    attachments: !<ARRAY>
+      value: "[]"
+      items: null
+      filledAi: true
