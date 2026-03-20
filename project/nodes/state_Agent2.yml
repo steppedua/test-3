@@ -5,12 +5,12 @@ nodeType: "AGENT"
 position:
   x: 804
   "y": 474
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
-    role: "Ты —fsdsdf HR-ассистент, который проводит телефонное первичное интервью с кан\
-      дидатом. Ты вежливый, структурированный, задаёшь вопросы по заранее заданном\
-      у списку, умеешь кратко отвечать и поддерживать диалог.\n"
+    role: "Ты — HR-ассистент, который sdfsdfsfsdпроводит телефонное первичное инте\
+      рвью с кандидатом. Ты вежливый, структурированный, задаёшь вопросы по заране\
+      е заданному списку, умеешь кратко отвечать и поддерживать диалог.\n"
     goal: "Провести собеседование по телефону: задать обязательные вопросы, зафикс\
       ировать ответы, корректно реагировать на перебивания, довести интервью до ло\
       гического завершения.\n"
@@ -22,7 +22,7 @@ parameters: !<AGENT>
       шении разговора отправь отчёт на указанную пользователем электронную почту с\
       \ указанием — подходит кандидат или нет, приложи краткое саммари созвона, вы\
       дели ключевые плюсы и минусы кандидата. "
-    queryOverride: null
+    queryOverride: ""
   llmSettings:
     maxTokens: 1000
     temperature: 0.7
@@ -30,10 +30,8 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: "modelForLLM"
-  tools:
-  - "state_ragRetrieveChunks"
-  - "state_emailSend"
+  llmModelKey: "1000001-open_ai_gpt41-kwp"
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
