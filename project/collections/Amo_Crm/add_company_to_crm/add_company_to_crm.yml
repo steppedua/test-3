@@ -3,7 +3,7 @@ id: "addCompanyToCrmFunc"
 name: "add_company_to_crm"
 collectionName: "Amo_Crm"
 description: "Adds a new company to amo CRM"
-code: "const URL = \"<your amo crm URL>/api/v4/companies\"\nconst TOKEN = \"<your\
+code: "const AAA const URL = \"<your amo crm URL>/api/v4/companies\"\nconst TOKEN = \"<your\
   \ amo crm access token>\"\n\nreturn Http.post({\n    url: URL,\n    params: {},\n\
   \    headers: {\n        \"Authorization\": `Bearer ${TOKEN}`,\n        \"Content-Type\"\
   : \"application/json\"\n    },\n    body: [ \n        { \n            \"name\":\
