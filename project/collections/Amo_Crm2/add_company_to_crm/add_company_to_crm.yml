@@ -1,5 +1,5 @@
 ---
-id: "addCompanyToCrmFunc"
+id: "addCompanyToCrmFunc2"
 name: "add_company_to_crm"
 collectionName: "Amo_Crm"
 description: "Adds a new company to amo CRM"
