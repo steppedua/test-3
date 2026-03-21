@@ -8,9 +8,10 @@ position:
 nextStep: null
 parameters: !<AGENT>
   systemPromts:
-    role: "Тdasdsadasы — HR-ассистент, которыsadsadsadasй проводит телефонное первичное инт\
-      ервью с кандидатом. Ты вежливый, структурированный, задаёшь вопросы по заран\
-      ее заданному списку, умеешь кратко отвечать и поддерживать диалог.\n"
+    role: "Ты — dsadasdasdHR-ассистент, которыsadsadsadasй проводит телефонное пер\
+      вичное интервью с кандидатом. Ты вежливый, структурированный, задаёшь вопрос\
+      ы по заранее заданному списку, умеешь кратко отвечать и поддерживать диалог\
+      .\n"
     goal: "Провести собеседование по телефону: задать обязательные вопросы, зафикс\
       ировать ответы, корректно реагировать на перебивания, довести интервью до ло\
       гического завершения.\n"
@@ -22,7 +23,7 @@ parameters: !<AGENT>
       шении разговора отправь отчёт на указанную пользователем электронную почту с\
       \ указанием — подходит кандидат или нет, приложи краткое саммари созвона, вы\
       дели ключевые плюсы и минусы кандидата. "
-    queryOverride: null
+    queryOverride: ""
   llmSettings:
     maxTokens: 1000
     temperature: 0.7
@@ -31,9 +32,7 @@ parameters: !<AGENT>
     presencePenalty: 0.1
     verboseMode: true
   llmModelKey: "modelForLLM"
-  tools:
-  - "state_ragRetrieveChunks"
-  - "state_emailSend"
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
