@@ -5,11 +5,10 @@ nodeType: "AGENT"
 position:
   x: 1247
   "y": -16
-nextStep: null
+nextStep: ""
 parameters: !<AGENT>
   systemPromts:
-    role: "hbhbjhblnlYou areвфывфывфывфыв a highly skilled web researcher and data\
-      \ extraction agent."
+    role: "You are a highly skilled web researcher and data extraction agent."
     goal: "Your goals:\n\n1. Using company's tax identification number or company's\
       \ name, collect critical company information from these specific sources: the\
       \ company website, rusprofile.ru and other reputable, well-established and trustworthy\
@@ -78,7 +77,9 @@ parameters: !<AGENT>
     presencePenalty: 0.0
     verboseMode: true
   llmModelKey: "modelForLLM"
-  tools: []
+  tools:
+  - "state_webSearchExa"
+  - "state_addCompanyToCrm"
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
