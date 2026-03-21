@@ -5,7 +5,7 @@ nodeType: "AGENT"
 position:
   x: 817
   "y": 149
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "Собиратель анкеты для обзвона"
