@@ -1,6 +1,4 @@
 ---
 name: "Amo_Crm"
 functionIds:
-- "69befe3ac2691b20029d9fbf"
-- "69befefec2691b20029d9fc8"
-- "69befefec2691b20029d9fca"
+- "addCompanyToCrmFunc"
