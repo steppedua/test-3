@@ -1,16 +1,16 @@
 ---
-id: "state_1"
+id: "state_2"
 nodeName: "Агент"
 nodeType: "AGENT"
 position:
-  x: 1633
-  "y": 25
+  x: 2144
+  "y": 122
 nextStep: null
 parameters: !<AGENT>
   systemPromts:
-    role: "dsasda"
+    role: "dasdasdasas"
     goal: "dasdasd"
-    instructions: "dasdas"
+    instructions: ""
     queryOverride: ""
   llmSettings:
     maxTokens: 4000
