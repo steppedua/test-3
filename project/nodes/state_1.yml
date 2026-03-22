@@ -3,8 +3,8 @@ id: "state_1"
 nodeName: "Агент"
 nodeType: "AGENT"
 position:
-  x: 1633
-  "y": 25
+  x: 1982
+  "y": 59
 nextStep: null
 parameters: !<AGENT>
   systemPromts:
@@ -19,7 +19,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-scn"
+  llmModelKey: null
   tools: []
   handoffAgents:
     allowedAny: false
