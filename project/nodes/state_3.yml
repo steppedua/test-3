@@ -1,0 +1,27 @@
+---
+id: "state_3"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 1220
+  "y": -408
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: "adasdasd"
+    goal: "asdsadsa"
+    instructions: ""
+    queryOverride: ""
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "1000001-open_ai_gpt41-ikj"
+  tools: []
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: false
