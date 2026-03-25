@@ -1,8 +1,8 @@
 --- !<LLM>
-key: "test-llm-model"
+key: "modelForLLM"
 type: "LLM"
 credentialKey: null
 projectShortName: null
-name: "GPT-4 Test Model"
+name: "OPEN_AI - gpt-4.1"
 provider: "OPEN_AI"
 model: "just-ai/openai-proxy/gpt-4.1"
