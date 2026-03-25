@@ -8,4 +8,4 @@ position:
 nextStep: null
 parameters: !<CONDITION>
   condition: "Context.getChannelType() == \"telegram\""
-  falseStep: "state_Agent2"
+  falseStep: null
