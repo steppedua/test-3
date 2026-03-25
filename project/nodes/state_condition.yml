@@ -5,7 +5,7 @@ nodeType: "CONDITION"
 position:
   x: 384
   "y": 297
-nextStep: null
+nextStep: "state_Agent1"
 parameters: !<CONDITION>
   condition: "Context.getChannelType() == \"telegram\""
-  falseStep: null
+  falseStep: "state_Agent2"

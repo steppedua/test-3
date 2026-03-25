@@ -5,7 +5,7 @@ nodeType: "AGENT"
 position:
   x: 804
   "y": 474
-nextStep: null
+nextStep: ""
 parameters: !<AGENT>
   systemPromts:
     role: "Ты — HR-ассистент, который проводит телефонное первичное интервью с кан\
@@ -30,7 +30,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-enn"
+  llmModelKey: "modelForLLM"
   tools:
   - "state_ragRetrieveChunks"
   - "state_emailSend"
