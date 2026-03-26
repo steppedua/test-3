@@ -35,3 +35,6 @@ parameters: !<AGENT>
     fillersPhraseConfig:
       activationDelayMs: 1000
       fillerPhrasesList: []
+  enableContext: true
+  chatHistoryLimit: 50
+  sequentialToolCallsLimit: 5

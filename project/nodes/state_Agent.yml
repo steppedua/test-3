@@ -84,3 +84,6 @@ parameters: !<AGENT>
     allowedAgentNodeIds: []
   stayInAgent: true
   telephonyConfig: null
+  enableContext: true
+  chatHistoryLimit: 50
+  sequentialToolCallsLimit: 5

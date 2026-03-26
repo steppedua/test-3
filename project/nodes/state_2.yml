@@ -14,3 +14,11 @@ parameters: !<FUNCTION>
     name: !<STRING>
       value: null
       filledAi: false
+  contextConfig:
+    enabled: true
+    key: "dsadasd"
+    valuePrefix: "ыфвфывф"
+    handoffAgents:
+      allowedAny: true
+      allowedAgentNodeIds: []
+    putIfError: true
