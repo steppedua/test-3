@@ -5,7 +5,7 @@ nodeType: "AGENT"
 position:
   x: 1247
   "y": -16
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "You are a highly skilled web researcher and data extraction agent."
@@ -76,10 +76,8 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "modelForLLM"
-  tools:
-  - "state_webSearchExa"
-  - "state_addCompanyToCrm"
+  llmModelKey: "1000001-open_ai_gpt41-alq"
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
