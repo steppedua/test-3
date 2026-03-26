@@ -1,0 +1,37 @@
+---
+id: "state_1"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 1095
+  "y": 469
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: "dfadfsd"
+    goal: "afsasfas"
+    instructions: ""
+    queryOverride: ""
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "1000001-open_ai_gpt41-tki"
+  tools: []
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: false
+  telephonyConfig:
+    enabled: true
+    llmResponseTimeoutMs: 10000
+    bargeInConfig:
+      bargeIn: "DISABLED"
+      bargeInTrigger: "FINAL"
+      noInterruptTime: 0
+    fillersPhraseConfig:
+      activationDelayMs: 1000
+      fillerPhrasesList: []
