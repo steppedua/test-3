@@ -1,0 +1,14 @@
+---
+id: "state_2"
+nodeName: "dasdas"
+nodeType: "FUNCTION"
+position:
+  x: 2044
+  "y": 183
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "69c628638a4bc74c25b14b93"
+  isTool: false
+  isSystem: false
+  parameters: {}
+  contextConfig: null
