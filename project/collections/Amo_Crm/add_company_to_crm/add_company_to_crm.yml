@@ -1,5 +1,5 @@
 ---
-id: "69c670e036499b026f1f7730"
+id: "addCompanyToCrmFunc"
 name: "add_company_to_crm"
 collectionName: "Amo_Crm"
 description: "Adds a new company to amo CRM"
@@ -8,7 +8,7 @@ responseDescription: "Boolean value: true if the company added to amo CRM succes
   \ false if not"
 parameters:
 - name: "name"
-  type: "STRING"
+  type: "string"
   required: false
   description: "name of the company"
   properties: null

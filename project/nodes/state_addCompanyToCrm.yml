@@ -7,7 +7,7 @@ position:
   "y": 369
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "69c670e036499b026f1f7730"
+  functionId: "addCompanyToCrmFunc"
   isTool: true
   isSystem: false
   parameters:
