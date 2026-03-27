@@ -1,9 +1,9 @@
 ---
-id: "69c6fe4fb8ede01d44ace0fe"
+id: "69c7062db8ede01d44ace12d"
 name: "get_code_context_exa"
 originName: "get_code_context_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-lvy"
+mcpIntegrationKey: "1000001-exa-ehd"
 description: "Find code examples, documentation, and programming solutions. \n\nBest\
   \ for: Any programming question - API usage, library examples, code snippets, debugging\
   \ help.\nReturns: Relevant code and documentation.\n\nQuery tips: describe what\

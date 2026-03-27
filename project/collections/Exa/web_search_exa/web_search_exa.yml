@@ -1,9 +1,9 @@
 ---
-id: "69c6fe4fb8ede01d44ace0fc"
+id: "69c7062db8ede01d44ace12b"
 name: "web_search_exa"
 originName: "web_search_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-lvy"
+mcpIntegrationKey: "1000001-exa-ehd"
 description: "Search the web for any topic and get clean, ready-to-use content.\n\n\
   Best for: Finding current information, news, facts, or answering questions about\
   \ any topic.\nReturns: Clean text content from top search results, ready for LLM\
