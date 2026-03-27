@@ -5,11 +5,11 @@ nodeType: "AGENT"
 position:
   x: 954
   "y": -201
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "You are a friendly and polite ai-agent that communicates with users. You\
-      \ answer user questions using a knowledge base via a RAG tool."
+      \ answer user questions using a knowledge base via a RAG tool.dasdasdas"
     goal: "Your goal is to assist users by providing accurate and helpful answers\
       \ to their questions, utilizing the knowledge base. If an answer cannot be found,\
       \ guide the user to rephrase their question."
@@ -33,7 +33,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "modelForLLM"
+  llmModelKey: "1000001-open_ai_gpt41-nwi"
   tools:
   - "state_ragRetrieveChunks"
   handoffAgents:
