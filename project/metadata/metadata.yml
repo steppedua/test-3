@@ -1,11 +1,11 @@
 ---
-exportVersion: "1"
-exportedAt: "2026-03-27T11:14:04.787215633Z"
+exportVersion: "2"
+exportedAt: "2026-03-27T11:15:06.249171471Z"
 projectId: "test123342-1000001-BMm"
 projectName: "test123342-1000001-BMm"
 accountId: 1000001
-language: null
-timezone: null
+language: "ru"
+timezone: "Europe/Moscow"
 importInstructions: "This archive contains an Agent Platform project export.\n\nIMPORTANT:\
   \ Sensitive data (credentials, API keys) are NOT included in this export.\nAfter\
   \ import, you will need to:\n1. Fill in credential placeholders in credentials.json\n\
