@@ -3,21 +3,21 @@ id: "state_ragRetrieveChunks"
 nodeName: "Rag.retrieveChunks"
 nodeType: "FUNCTION"
 position:
-  x: 667
-  "y": 911
+  x: 952
+  "y": 144
 nextStep: null
 parameters: !<FUNCTION>
   functionId: "cf9b44f3c44087baa9597a11"
   isTool: true
   isSystem: true
   parameters:
-    ragIntegration: !<INTEGRATION_RAG>
-      value: null
+    ragIntegrationKey: !<STRING>
+      value: ""
       filledAi: false
     query: !<STRING>
       value: "null"
       filledAi: true
     historyMessageLimit: !<INTEGER>
-      value: "null"
-      filledAi: true
+      value: "50"
+      filledAi: false
   contextConfig: null
