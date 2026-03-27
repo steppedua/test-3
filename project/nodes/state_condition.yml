@@ -7,5 +7,5 @@ position:
   "y": 297
 nextStep: "state_Agent1"
 parameters: !<CONDITION>
-  condition: "Context.getChannelType() == \"telegram\""
+  condition: "Context.getChannelType() == \"telegram12345\""
   falseStep: "state_Agent2"
