@@ -1,8 +1,8 @@
 --- !<LLM>
-key: "1000001-open_ai_gpt41-usr"
+key: "1000001-open_ai_gpt41-ixp"
 type: "LLM"
 credentialKey: null
-projectShortName: "test3213412-1000001-gqq"
+projectShortName: "sadasda-1000001-iIR"
 name: "OPEN_AI - gpt-4.1"
 provider: "OPEN_AI"
 model: "just-ai/openai-proxy/gpt-4.1"
