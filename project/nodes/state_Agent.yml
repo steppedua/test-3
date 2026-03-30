@@ -27,8 +27,7 @@ parameters: !<AGENT>
     presencePenalty: 0.0
     verboseMode: true
   llmModelKey: "1000001-open_ai_gpt41-act"
-  tools:
-  - "state_searchArticles"
+  tools: []
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
