@@ -3,8 +3,8 @@ id: "state_Agent1"
 nodeName: "Составитель анкеты"
 nodeType: "AGENT"
 position:
-  x: 817
-  "y": 149
+  x: 971
+  "y": 147
 nextStep: null
 parameters: !<AGENT>
   systemPromts:
