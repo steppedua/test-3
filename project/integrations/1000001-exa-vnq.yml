@@ -1,0 +1,9 @@
+--- !<MCP>
+key: "1000001-exa-vnq"
+type: "MCP"
+credentialKey: null
+projectShortName: "12e312-1000001-WFq"
+name: "Exa"
+collectionName: "Exa"
+url: "https://mcp.exa.ai/mcp"
+toolsCount: 3
