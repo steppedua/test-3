@@ -1,6 +1,12 @@
 ---
 name: "Exa"
 functionIds:
+- "crawling_exa"
+- "get_code_context_exa"
+- "web_search_exa"
 - "web_search_exa"
 - "crawling_exa"
 - "get_code_context_exa"
+- "crawling_exa"
+- "get_code_context_exa"
+- "web_search_exa"
