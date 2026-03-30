@@ -1,0 +1,28 @@
+---
+id: "get_code_context_exa"
+name: "get_code_context_exa"
+originName: "get_code_context_exa"
+collectionName: "Exa"
+mcpIntegrationKey: "1000001-exa-qjl"
+description: "Find code examples, documentation, and programming solutions. \n\nBest\
+  \ for: Any programming question - API usage, library examples, code snippets, debugging\
+  \ help.\nReturns: Relevant code and documentation.\n\nQuery tips: describe what\
+  \ you're looking for specifically. \"Python requests library POST with JSON body\"\
+  \ not \"python http\".\nIf highlights are insufficient, follow up with crawling_exa\
+  \ on the best URLs."
+responseDescription: null
+parameters:
+- name: "query"
+  type: "STRING"
+  required: true
+  description: "Search query to find relevant context for APIs, Libraries, and SDKs.\
+    \ For example, 'React useState hook examples', 'Python pandas dataframe filtering',\
+    \ 'Express.js middleware', 'Next js partial prerendering configuration'"
+  properties: null
+  items: null
+- name: "numResults"
+  type: "NUMBER"
+  required: false
+  description: "Number of search results to return (must be a number, default: 8)"
+  properties: null
+  items: null
