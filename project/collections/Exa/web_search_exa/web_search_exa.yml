@@ -3,7 +3,7 @@ id: "web_search_exa"
 name: "web_search_exa"
 originName: "web_search_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-fjb"
+mcpIntegrationKey: "1000001-exa-zcr"
 description: "Search the web for any topic and get clean, ready-to-use content.\n\n\
   Best for: Finding current information, news, facts, or answering questions about\
   \ any topic.\nReturns: Clean text content from top search results, ready for LLM\
@@ -11,4 +11,42 @@ description: "Search the web for any topic and get clean, ready-to-use content.\
   \ React and Vue performance\" not \"React vs Vue\".\nIf highlights are insufficient,\
   \ follow up with crawling_exa on the best URLs."
 responseDescription: null
-parameters: []
+parameters:
+- name: "query"
+  type: "STRING"
+  required: true
+  description: "Natural language search query. Should be a semantically rich description\
+    \ of the ideal page, not just keywords."
+  properties: null
+  items: null
+- name: "numResults"
+  type: "NUMBER"
+  required: false
+  description: "Number of search results to return (must be a number, default: 8)"
+  properties: null
+  items: null
+- name: "type"
+  type: "STRING"
+  required: false
+  description: "Search type - 'auto': balanced search (default), 'fast': quick results"
+  properties: null
+  items: null
+- name: "freshness"
+  type: "STRING"
+  required: false
+  description: "How recent results should be. Only set when recency matters."
+  properties: null
+  items: null
+- name: "includeDomains"
+  type: "ARRAY"
+  required: false
+  description: "List of domains to include in the search. If specified, results will\
+    \ only come from these domains."
+  properties: null
+  items:
+    name: ""
+    type: "STRING"
+    required: false
+    description: ""
+    properties: null
+    items: null
