@@ -1,9 +1,0 @@
---- !<MCP>
-key: "1000001-exa-awa"
-type: "MCP"
-credentialKey: null
-projectShortName: "123-1000001-Iag"
-name: "Exa"
-collectionName: "Exa"
-url: "https://mcp.exa.ai/mcp"
-toolsCount: 3
