@@ -1,0 +1,17 @@
+---
+id: "state_searchArticles"
+nodeName: "searchArticles"
+nodeType: "FUNCTION"
+position:
+  x: 845
+  "y": 13
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "69ca4ffcb8ede01d44ace270"
+  isTool: true
+  isSystem: false
+  parameters:
+    query: !<STRING>
+      value: ""
+      filledAi: true
+  contextConfig: null
