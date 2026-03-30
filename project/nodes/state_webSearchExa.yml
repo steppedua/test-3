@@ -10,5 +10,21 @@ parameters: !<FUNCTION>
   functionId: "Exa.web_search_exa"
   isTool: true
   isSystem: false
-  parameters: {}
+  parameters:
+    query: !<STRING>
+      value: null
+      filledAi: false
+    numResults: !<NUMBER>
+      value: null
+      filledAi: false
+    type: !<STRING>
+      value: null
+      filledAi: false
+    freshness: !<STRING>
+      value: null
+      filledAi: false
+    includeDomains: !<ARRAY>
+      value: null
+      items: null
+      filledAi: false
   contextConfig: null
