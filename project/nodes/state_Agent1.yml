@@ -21,7 +21,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.09
     presencePenalty: 0.09
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-mbm"
+  llmModelKey: "1000001-open_ai_gpt41-elb"
   tools: []
   handoffAgents:
     allowedAny: false
