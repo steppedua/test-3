@@ -3,12 +3,12 @@ id: "state_webSearchExa"
 nodeName: "web_search_exa"
 nodeType: "FUNCTION"
 position:
-  x: 962
-  "y": 353
+  x: 884
+  "y": 296
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "Exa.web_search_exa"
+  functionId: "69cac79322bbc006b4c605c0"
   isTool: true
   isSystem: false
-  parameters: {}
+  parameters: null
   contextConfig: null
