@@ -1,0 +1,14 @@
+---
+id: "state_webSearchExa"
+nodeName: "web_search_exa"
+nodeType: "FUNCTION"
+position:
+  x: 1098
+  "y": 333
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "Exa/web_search_exa"
+  isTool: true
+  isSystem: false
+  parameters: {}
+  contextConfig: null
