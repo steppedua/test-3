@@ -1,5 +1,5 @@
 ---
-id: "add_company_to_crm"
+id: "Amo_Crm.add_company_to_crm"
 name: "add_company_to_crm"
 collectionName: "Amo_Crm"
 description: "Adds a new company to amo CRM"
