@@ -3,7 +3,7 @@ id: "get_code_context_exa"
 name: "get_code_context_exa"
 originName: "get_code_context_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-egq"
+mcpIntegrationKey: "1000001-exa-bda"
 description: "Find code examples, documentation, and programming solutions. \n\nBest\
   \ for: Any programming question - API usage, library examples, code snippets, debugging\
   \ help.\nReturns: Relevant code and documentation.\n\nQuery tips: describe what\
