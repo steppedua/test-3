@@ -3,7 +3,7 @@ id: "Exa.crawling_exa"
 name: "crawling_exa"
 originName: "crawling_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-gim"
+mcpIntegrationKey: "1000001-exa-cdq"
 description: "Read a webpage's full content as clean markdown. Use after web_search_exa\
   \ when highlights are insufficient or to read any URL.\n\nBest for: Extracting full\
   \ content from known URLs. Batch multiple URLs in one call.\nReturns: Clean text\
