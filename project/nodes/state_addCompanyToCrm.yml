@@ -3,8 +3,8 @@ id: "state_addCompanyToCrm"
 nodeName: "add_company_to_crm"
 nodeType: "FUNCTION"
 position:
-  x: 1439
-  "y": 369
+  x: 1528
+  "y": 307
 nextStep: null
 parameters: !<FUNCTION>
   functionId: "Amo_Crm.add_company_to_crm"
