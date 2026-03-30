@@ -3,7 +3,7 @@ id: "Exa.web_search_exa"
 name: "web_search_exa"
 originName: "web_search_exa"
 collectionName: "Exa"
-mcpIntegrationKey: "1000001-exa-vnq"
+mcpIntegrationKey: "1000001-exa-xpu"
 description: "Search the web for any topic and get clean, ready-to-use content.\n\n\
   Best for: Finding current information, news, facts, or answering questions about\
   \ any topic.\nReturns: Clean text content from top search results, ready for LLM\
