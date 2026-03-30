@@ -7,7 +7,7 @@ position:
   "y": 369
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "Amo_Crm/add_company_to_crm"
+  functionId: "Amo_Crm.add_company_to_crm"
   isTool: true
   isSystem: false
   parameters:

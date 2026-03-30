@@ -7,7 +7,7 @@ position:
   "y": 333
 nextStep: null
 parameters: !<FUNCTION>
-  functionId: "Exa/web_search_exa"
+  functionId: "Exa.web_search_exa"
   isTool: true
   isSystem: false
   parameters: {}
