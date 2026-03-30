@@ -1,8 +1,8 @@
 --- !<MCP>
-key: "1000001-exa-mod"
+key: "1000001-exa-jls"
 type: "MCP"
 credentialKey: null
-projectShortName: "my_test_project-1000001-eha"
+projectShortName: "my_test_project-1000001-NTK"
 name: "Exa"
 collectionName: "Exa"
 url: "https://mcp.exa.ai/mcp"
