@@ -76,9 +76,10 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-yzp"
+  llmModelKey: "1000001-open_ai_gpt41-mud"
   tools:
   - "state_webSearchExa"
+  - "state_addCompanyToCrm"
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []

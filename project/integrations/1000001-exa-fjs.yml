@@ -1,8 +1,8 @@
 --- !<MCP>
-key: "1000001-exa-soq"
+key: "1000001-exa-fjs"
 type: "MCP"
 credentialKey: null
-projectShortName: "my_test_project-1000001-ORS"
+projectShortName: "my_test_project-1000001-lof"
 name: "Exa"
 collectionName: "Exa"
 url: "https://mcp.exa.ai/mcp"
