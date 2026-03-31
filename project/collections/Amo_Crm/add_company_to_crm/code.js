@@ -1,6 +1,6 @@
 const URL = "<your amo crm URL>/api/v4/companies"
 const TOKEN = "<your amo crm access token>"
-
+const a = '1';
 return Http.post({
     url: URL,
     params: {},
