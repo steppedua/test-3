@@ -1,9 +1,0 @@
----
-id: state_WebhooTrigger
-name: Вебхук
-position:
-  x: 392
-  "y": 491
-next-step: state_SendNews
-parameters:
-  url: https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/e6512395-49bb-45bb-b1b0-a1304b016951/invoke
