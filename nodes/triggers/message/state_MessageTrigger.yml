@@ -1,0 +1,9 @@
+---
+id: state_MessageTrigger
+name: Сообщение
+position:
+  x: -83
+  "y": 370
+next-step: state_condition
+parameters:
+  placeholder: null

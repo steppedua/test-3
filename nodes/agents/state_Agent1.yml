@@ -1,0 +1,32 @@
+---
+id: state_Agent1
+name: Составитель анкеты
+position:
+  x: 817
+  "y": 149
+next-step: null
+parameters:
+  llm-model-key: 1000001-open_ai_gpt41-fyz
+  llm-model-settings:
+    max-tokens: 4000
+    temperature: 0.68
+    top-p: 0.14
+    frequency-penalty: 0.09
+    presence-penalty: 0.09
+    verbose-mode: true
+  system-promts:
+    role: Собиратель анкеты для обзвона
+    goal: Собрать данные для дальнейшего обзвона
+    instructions: "Задай следующие вопросы:\n1) На какую позицию собеседуем?\n2) К\
+      то точно не подходит? \n3) Email для отправки отчёта\n4) Опыт работы\n5) Как\
+      ие зарплатные ожидания?  \n6) Какие ещё вопросы нужно задать кандидату?"
+    query-override: null
+  tools: []
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: true
+  telephony-config: null
+  enable-context: false
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 5

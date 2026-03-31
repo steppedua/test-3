@@ -1,0 +1,31 @@
+---
+id: state_emailSend
+name: Email.send
+position:
+  x: 1046
+  "y": 904
+next-step: null
+parameters:
+  function-id: 2d0e83acd0863ae64a78b076
+  type: SYSTEM
+  collection-name: null
+  is-tool: true
+  parameters:
+    smtpIntegration:
+      type: INTEGRATION_SMTP
+      value: "null"
+      filled-ai: false
+    recipients:
+      type: ARRAY
+      value: null
+      items: null
+      filled-ai: true
+    subject:
+      type: STRING
+      value: Результат скрининга
+      filled-ai: false
+    content:
+      type: STRING
+      value: "null"
+      filled-ai: true
+  context-config: null
