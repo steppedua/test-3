@@ -15,4 +15,11 @@ parameters:
       type: STRING
       value: "null"
       filled-ai: false
-  context-config: null
+  context-config:
+    enabled: true
+    key: fsdafsdf
+    value-prefix: afsasfa
+    handoff-agents:
+      allowed-any: true
+      allowed-agent-node-ids: []
+    put-if-error: true
