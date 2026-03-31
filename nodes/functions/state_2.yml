@@ -1,0 +1,14 @@
+---
+id: state_2
+name: 123
+position:
+  x: 1838
+  "y": 129
+next-step: null
+parameters:
+  function-id: affa
+  type: USER
+  collection-name: Amo_Crm
+  is-tool: false
+  parameters: {}
+  context-config: null
