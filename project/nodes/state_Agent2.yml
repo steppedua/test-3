@@ -30,7 +30,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.1
     presencePenalty: 0.1
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-fic"
+  llmModelKey: "1000001-open_ai_gpt41-sbz"
   tools:
   - "state_ragRetrieveChunks"
   - "state_emailSend"
