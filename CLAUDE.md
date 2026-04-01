@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `mbvbkhj-1000001-mYY`
+- Project key: `mhgvghvhg-1000001-wVk`
 - Language: `ru`
 - Engine version: `1`
 
@@ -118,6 +118,9 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
 - `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
 - `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
+- `Exah/web_search_exa` — [schema](.agent/rules/mcp-functions/Exah/web_search_exa.json)
+- `Exah/crawling_exa` — [schema](.agent/rules/mcp-functions/Exah/crawling_exa.json)
+- `Exah/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exah/get_code_context_exa.json)
 
 ## Rules
 
