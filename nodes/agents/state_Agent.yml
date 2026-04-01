@@ -2,11 +2,11 @@
 id: state_Agent
 name: Search_Company_Info_Agent
 position:
-  x: 1386
-  y: -155
+  x: 1247
+  y: -16
 next-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-elt
+  llm-model-key: 1000001-open_ai_gpt41-tbs
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.3
@@ -76,7 +76,9 @@ parameters:
       - Create a new company card using addCompanyToCrm function.
       - Notify the user of the action taken (a new company card was created). Always confirm the operation's result in Russian.
     query-override: null
-  tools: []
+  tools:
+  - state_webSearchExa
+  - state_addCompanyToCrm
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
