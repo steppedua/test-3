@@ -1,6 +1,6 @@
 ---
-id: state_2
-name: web_search_exa_from_mcp2
+id: state_4
+name: search_from_exa2
 position:
   x: 300
   y: 100
@@ -8,7 +8,7 @@ next-step: null
 parameters:
   function-id: web_search_exa
   type: MCP
-  collection-name: Exa
+  collection-name: Exa2
   is-tool: false
   parameters:
     query:
