@@ -6,8 +6,8 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `jhvhgv-1000001-gIB`
-- Language: `ru`
+- Project key: `test_mcp-1000001-UvQ`
+- Language: `en`
 - Engine version: `1`
 
 ## Documentation
@@ -78,11 +78,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Llm/sendText` — [schema](.agent/rules/system-functions/Llm/sendText.json)
 - `Llm/getChatHistory` — [schema](.agent/rules/system-functions/Llm/getChatHistory.json)
 - `Llm/summarizeText` — [schema](.agent/rules/system-functions/Llm/summarizeText.json)
-- `Log/info` — [schema](.agent/rules/system-functions/Log/info.json)
-- `Log/debug` — [schema](.agent/rules/system-functions/Log/debug.json)
-- `Log/trace` — [schema](.agent/rules/system-functions/Log/trace.json)
-- `Log/warn` — [schema](.agent/rules/system-functions/Log/warn.json)
-- `Log/error` — [schema](.agent/rules/system-functions/Log/error.json)
 - `ProjectRouter/callProject` — [schema](.agent/rules/system-functions/ProjectRouter/callProject.json)
 - `ProjectRouter/switchTo` — [schema](.agent/rules/system-functions/ProjectRouter/switchTo.json)
 - `ProjectRouter/backToOriginalProject` — [schema](.agent/rules/system-functions/ProjectRouter/backToOriginalProject.json)
