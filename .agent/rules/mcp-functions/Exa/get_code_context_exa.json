@@ -1,0 +1,16 @@
+{
+  "type" : "object",
+  "properties" : {
+    "query" : {
+      "type" : "string",
+      "description" : "Search query to find relevant context for APIs, Libraries, and SDKs. For example, 'React useState hook examples', 'Python pandas dataframe filtering', 'Express.js middleware', 'Next js partial prerendering configuration'"
+    },
+    "numResults" : {
+      "type" : "number",
+      "description" : "Number of search results to return (must be a number, default: 8)",
+      "minimum" : 1.0,
+      "maximum" : 20.0
+    }
+  },
+  "required" : [ "query" ]
+}
