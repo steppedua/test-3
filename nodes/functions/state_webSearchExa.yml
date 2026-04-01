@@ -1,28 +1,28 @@
 ---
-id: state_1
+id: state_webSearchExa
 name: web_search_exa
 position:
-  x: 1540
-  y: 397
+  x: 956
+  y: 337
 next-step: null
 parameters:
   function-id: web_search_exa
   type: MCP
-  collection-name: sad
+  collection-name: Exa
   is-tool: true
   parameters:
     query:
       type: STRING
-      value: asdas
-      filled-ai: false
+      value: "null"
+      filled-ai: true
     numResults:
       type: NUMBER
-      value: null
-      filled-ai: false
+      value: "null"
+      filled-ai: true
     type:
       type: STRING
-      value: null
-      filled-ai: false
+      value: "null"
+      filled-ai: true
     freshness:
       type: STRING
       value: null
@@ -30,6 +30,6 @@ parameters:
     includeDomains:
       type: ARRAY
       value: null
-      items: []
+      items: null
       filled-ai: false
   context-config: null
