@@ -2,8 +2,8 @@
 id: state_webSearchExa
 name: web_search_exa
 position:
-  x: 997
-  y: 335
+  x: 907
+  y: 336
 next-step: null
 parameters:
   function-id: web_search_exa
