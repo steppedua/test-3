@@ -2,8 +2,8 @@
 id: state_mcpExa
 name: web_search_exa
 position:
-  x: 1100
-  y: -100
+  x: 999
+  y: 888
 next-step: null
 parameters:
   function-id: web_search_exa
