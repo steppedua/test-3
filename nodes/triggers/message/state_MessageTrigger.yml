@@ -4,6 +4,6 @@ name: Сообщение
 position:
   x: 845
   y: 102
-next-step: state_Agent
+next-step: null
 parameters:
   placeholder: null

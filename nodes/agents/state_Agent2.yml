@@ -78,7 +78,6 @@ parameters:
     query-override: null
   tools:
   - state_webSearchExa
-  - state_addCompanyToCrm
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
