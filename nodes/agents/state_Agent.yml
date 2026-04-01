@@ -3,7 +3,7 @@ id: state_Agent
 name: Search_Company_Info_Agent
 position:
   x: 1247
-  y: -16
+  y: -20
 next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-pir
