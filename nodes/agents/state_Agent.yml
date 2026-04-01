@@ -2,7 +2,7 @@
 id: state_Agent
 name: Search_Company_Info_Agent
 position:
-  x: 1185
+  x: 1180
   y: 115
 next-step: null
 parameters:
