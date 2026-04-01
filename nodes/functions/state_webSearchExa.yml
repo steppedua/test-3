@@ -2,8 +2,8 @@
 id: state_webSearchExa
 name: web_search_exa
 position:
-  x: 937
-  y: 334
+  x: 1098
+  y: 333
 next-step: null
 parameters:
   function-id: web_search_exa
@@ -28,8 +28,7 @@ parameters:
       value: null
       filled-ai: false
     includeDomains:
-      type: ARRAY
+      type: STRING
       value: null
-      items: null
       filled-ai: false
   context-config: null
