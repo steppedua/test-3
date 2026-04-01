@@ -113,6 +113,9 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
 - `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
 - `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
+- `ExaSecond/web_search_exa` — [schema](.agent/rules/mcp-functions/ExaSecond/web_search_exa.json)
+- `ExaSecond/crawling_exa` — [schema](.agent/rules/mcp-functions/ExaSecond/crawling_exa.json)
+- `ExaSecond/get_code_context_exa` — [schema](.agent/rules/mcp-functions/ExaSecond/get_code_context_exa.json)
 
 ## Rules
 
