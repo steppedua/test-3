@@ -1,0 +1,14 @@
+---
+id: state_exa2
+name: search_from_exa2
+position:
+  x: 300
+  y: 300
+next-step: null
+parameters:
+  function-id: web_search_exa
+  type: MCP
+  collection-name: Exa2
+  is-tool: false
+  parameters: null
+  context-config: null
