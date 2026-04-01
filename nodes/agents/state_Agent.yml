@@ -6,7 +6,7 @@ position:
   y: -16
 next-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-elt
+  llm-model-key: 1000001-open_ai_gpt41-qgd
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.3
@@ -76,7 +76,8 @@ parameters:
       - Create a new company card using addCompanyToCrm function.
       - Notify the user of the action taken (a new company card was created). Always confirm the operation's result in Russian.
     query-override: null
-  tools: []
+  tools:
+  - state_webSearchExa
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
