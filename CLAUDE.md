@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `sadas-1000001-zMT`
+- Project key: `sadas-1000001-BMx`
 - Language: `ru`
 - Engine version: `1`
 
