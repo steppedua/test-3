@@ -1,0 +1,34 @@
+---
+id: state_mcpExaSec
+name: web_search_exa
+position:
+  x: 1300
+  y: 100
+next-step: null
+parameters:
+  function-id: web_search_exa
+  type: MCP
+  collection-name: ExaSecond
+  is-tool: false
+  parameters:
+    query:
+      type: STRING
+      value: null
+      filled-ai: false
+    numResults:
+      type: STRING
+      value: null
+      filled-ai: false
+    type:
+      type: STRING
+      value: null
+      filled-ai: false
+    freshness:
+      type: STRING
+      value: null
+      filled-ai: false
+    includeDomains:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
