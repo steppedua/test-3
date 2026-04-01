@@ -2,7 +2,7 @@
 id: state_webSearchExa
 name: web_search_exa
 position:
-  x: 980
+  x: 937
   y: 334
 next-step: null
 parameters:
