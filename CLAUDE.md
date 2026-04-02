@@ -111,6 +111,33 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Telegram/sendButtons` — [schema](.agent/rules/system-functions/Telegram/sendButtons.json)
 - `Tts/synthesize` — [schema](.agent/rules/system-functions/Tts/synthesize.json)
 
+### MCP Functions
+
+JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
+
+- `tytrd/add` — [schema](.agent/rules/mcp-functions/tytrd/add.json)
+- `tytrd/subtract` — [schema](.agent/rules/mcp-functions/tytrd/subtract.json)
+- `tytrd/multiply` — [schema](.agent/rules/mcp-functions/tytrd/multiply.json)
+- `tytrd/division` — [schema](.agent/rules/mcp-functions/tytrd/division.json)
+- `tytrd/sum` — [schema](.agent/rules/mcp-functions/tytrd/sum.json)
+- `tytrd/modulo` — [schema](.agent/rules/mcp-functions/tytrd/modulo.json)
+- `tytrd/mean` — [schema](.agent/rules/mcp-functions/tytrd/mean.json)
+- `tytrd/median` — [schema](.agent/rules/mcp-functions/tytrd/median.json)
+- `tytrd/mode` — [schema](.agent/rules/mcp-functions/tytrd/mode.json)
+- `tytrd/min` — [schema](.agent/rules/mcp-functions/tytrd/min.json)
+- `tytrd/max` — [schema](.agent/rules/mcp-functions/tytrd/max.json)
+- `tytrd/floor` — [schema](.agent/rules/mcp-functions/tytrd/floor.json)
+- `tytrd/ceiling` — [schema](.agent/rules/mcp-functions/tytrd/ceiling.json)
+- `tytrd/round` — [schema](.agent/rules/mcp-functions/tytrd/round.json)
+- `tytrd/sin` — [schema](.agent/rules/mcp-functions/tytrd/sin.json)
+- `tytrd/arcsin` — [schema](.agent/rules/mcp-functions/tytrd/arcsin.json)
+- `tytrd/cos` — [schema](.agent/rules/mcp-functions/tytrd/cos.json)
+- `tytrd/arccos` — [schema](.agent/rules/mcp-functions/tytrd/arccos.json)
+- `tytrd/tan` — [schema](.agent/rules/mcp-functions/tytrd/tan.json)
+- `tytrd/arctan` — [schema](.agent/rules/mcp-functions/tytrd/arctan.json)
+- `tytrd/radiansToDegrees` — [schema](.agent/rules/mcp-functions/tytrd/radiansToDegrees.json)
+- `tytrd/degreesToRadians` — [schema](.agent/rules/mcp-functions/tytrd/degreesToRadians.json)
+
 ## Rules
 
 - Do NOT modify `manifest.yml` unless you know what you are doing.
