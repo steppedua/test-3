@@ -31,6 +31,7 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | YAML Field | Type | Required | Description | Example |
 |------------|------|----------|-------------|---------|
 | `credential-key` | string | no | Reference to credential used for authentication |  |
+| `is-direct-access` | boolean | yes | Whether this is a direct access (custom) LLM model |  |
 | `key` | string | yes | Unique integration key | openai-gpt4 |
 | `model` | string | yes | Model identifier | gpt-4 |
 | `name` | string | yes | Human-readable integration name |  |
