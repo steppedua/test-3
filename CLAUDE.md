@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `hgvhgcgf-1000001-jmd`
+- Project key: `kjhjbjhb-1000001-VfM`
 - Language: `ru`
 - Engine version: `1`
 
@@ -115,28 +115,9 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 
 JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 
-- `gffdxdfxdfxdf/add` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/add.json)
-- `gffdxdfxdfxdf/subtract` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/subtract.json)
-- `gffdxdfxdfxdf/multiply` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/multiply.json)
-- `gffdxdfxdfxdf/division` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/division.json)
-- `gffdxdfxdfxdf/sum` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/sum.json)
-- `gffdxdfxdfxdf/modulo` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/modulo.json)
-- `gffdxdfxdfxdf/mean` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/mean.json)
-- `gffdxdfxdfxdf/median` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/median.json)
-- `gffdxdfxdfxdf/mode` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/mode.json)
-- `gffdxdfxdfxdf/min` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/min.json)
-- `gffdxdfxdfxdf/max` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/max.json)
-- `gffdxdfxdfxdf/floor` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/floor.json)
-- `gffdxdfxdfxdf/ceiling` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/ceiling.json)
-- `gffdxdfxdfxdf/round` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/round.json)
-- `gffdxdfxdfxdf/sin` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/sin.json)
-- `gffdxdfxdfxdf/arcsin` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/arcsin.json)
-- `gffdxdfxdfxdf/cos` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/cos.json)
-- `gffdxdfxdfxdf/arccos` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/arccos.json)
-- `gffdxdfxdfxdf/tan` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/tan.json)
-- `gffdxdfxdfxdf/arctan` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/arctan.json)
-- `gffdxdfxdfxdf/radiansToDegrees` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/radiansToDegrees.json)
-- `gffdxdfxdfxdf/degreesToRadians` — [schema](.agent/rules/mcp-functions/gffdxdfxdfxdf/degreesToRadians.json)
+- `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
+- `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
+- `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
 
 ## Rules
 
