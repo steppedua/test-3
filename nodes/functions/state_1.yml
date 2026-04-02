@@ -1,0 +1,25 @@
+---
+id: state_1
+name: SessionDb.get
+position:
+  x: 1165
+  y: 675
+next-step: null
+parameters:
+  function-id: da714632ed519bddd3a5440c
+  type: SYSTEM
+  collection-name: null
+  is-tool: true
+  parameters:
+    documentKey:
+      type: STRING
+      value: asdas
+      filled-ai: false
+  context-config:
+    enabled: true
+    key: ascas
+    value-prefix: sacdas
+    handoff-agents:
+      allowed-any: true
+      allowed-agent-node-ids: []
+    put-if-error: true
