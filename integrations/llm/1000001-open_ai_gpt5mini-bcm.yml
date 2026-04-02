@@ -1,0 +1,6 @@
+---
+key: 1000001-open_ai_gpt5mini-bcm
+credential-key: 1000001-myllmcred-veu
+name: OPEN_AI - gpt-5-mini
+provider: OPEN_AI
+model: gpt-5-mini
