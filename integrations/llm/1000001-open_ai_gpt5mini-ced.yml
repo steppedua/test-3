@@ -1,0 +1,7 @@
+---
+key: 1000001-open_ai_gpt5mini-ced
+credential-key: 1000001-tesrt-uxk
+name: OPEN_AI - gpt-5-mini
+provider: OPEN_AI
+model: gpt-5-mini
+is-direct-access: true
