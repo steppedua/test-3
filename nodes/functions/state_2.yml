@@ -2,13 +2,13 @@
 id: state_2
 name: add
 position:
-  x: 965
-  y: 142
-next-step: state_3
+  x: 1089
+  y: 261
+next-step: state_1
 parameters:
   function-id: add
   type: MCP
-  collection-name: sdfasfda
+  collection-name: sadas
   is-tool: false
   parameters:
     firstNumber:

@@ -1,9 +1,9 @@
 ---
-id: state_1
+id: state_3
 name: Сообщение
 position:
-  x: 452
-  y: 152
+  x: 671
+  y: 103
 next-step: state_2
 parameters:
   placeholder: null
