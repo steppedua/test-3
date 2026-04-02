@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `dasasd-1000001-jkY`
+- Project key: `kjhjbjhb-1000001-VfM`
 - Language: `ru`
 - Engine version: `1`
 
@@ -110,33 +110,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Telegram/sendVoice` — [schema](.agent/rules/system-functions/Telegram/sendVoice.json)
 - `Telegram/sendButtons` — [schema](.agent/rules/system-functions/Telegram/sendButtons.json)
 - `Tts/synthesize` — [schema](.agent/rules/system-functions/Tts/synthesize.json)
-
-### MCP Functions
-
-JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
-
-- `meee/add` — [schema](.agent/rules/mcp-functions/meee/add.json)
-- `meee/subtract` — [schema](.agent/rules/mcp-functions/meee/subtract.json)
-- `meee/multiply` — [schema](.agent/rules/mcp-functions/meee/multiply.json)
-- `meee/division` — [schema](.agent/rules/mcp-functions/meee/division.json)
-- `meee/sum` — [schema](.agent/rules/mcp-functions/meee/sum.json)
-- `meee/modulo` — [schema](.agent/rules/mcp-functions/meee/modulo.json)
-- `meee/mean` — [schema](.agent/rules/mcp-functions/meee/mean.json)
-- `meee/median` — [schema](.agent/rules/mcp-functions/meee/median.json)
-- `meee/mode` — [schema](.agent/rules/mcp-functions/meee/mode.json)
-- `meee/min` — [schema](.agent/rules/mcp-functions/meee/min.json)
-- `meee/max` — [schema](.agent/rules/mcp-functions/meee/max.json)
-- `meee/floor` — [schema](.agent/rules/mcp-functions/meee/floor.json)
-- `meee/ceiling` — [schema](.agent/rules/mcp-functions/meee/ceiling.json)
-- `meee/round` — [schema](.agent/rules/mcp-functions/meee/round.json)
-- `meee/sin` — [schema](.agent/rules/mcp-functions/meee/sin.json)
-- `meee/arcsin` — [schema](.agent/rules/mcp-functions/meee/arcsin.json)
-- `meee/cos` — [schema](.agent/rules/mcp-functions/meee/cos.json)
-- `meee/arccos` — [schema](.agent/rules/mcp-functions/meee/arccos.json)
-- `meee/tan` — [schema](.agent/rules/mcp-functions/meee/tan.json)
-- `meee/arctan` — [schema](.agent/rules/mcp-functions/meee/arctan.json)
-- `meee/radiansToDegrees` — [schema](.agent/rules/mcp-functions/meee/radiansToDegrees.json)
-- `meee/degreesToRadians` — [schema](.agent/rules/mcp-functions/meee/degreesToRadians.json)
 
 ## Rules
 
