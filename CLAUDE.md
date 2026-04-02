@@ -6,8 +6,8 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `hgvhgcgf-1000001-jmd`
-- Language: `ru`
+- Project key: `p1_t-1000001-uPz`
+- Language: `en`
 - Engine version: `1`
 
 ## Documentation
@@ -78,11 +78,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Llm/sendText` — [schema](.agent/rules/system-functions/Llm/sendText.json)
 - `Llm/getChatHistory` — [schema](.agent/rules/system-functions/Llm/getChatHistory.json)
 - `Llm/summarizeText` — [schema](.agent/rules/system-functions/Llm/summarizeText.json)
-- `Log/info` — [schema](.agent/rules/system-functions/Log/info.json)
-- `Log/debug` — [schema](.agent/rules/system-functions/Log/debug.json)
-- `Log/trace` — [schema](.agent/rules/system-functions/Log/trace.json)
-- `Log/warn` — [schema](.agent/rules/system-functions/Log/warn.json)
-- `Log/error` — [schema](.agent/rules/system-functions/Log/error.json)
 - `ProjectRouter/callProject` — [schema](.agent/rules/system-functions/ProjectRouter/callProject.json)
 - `ProjectRouter/switchTo` — [schema](.agent/rules/system-functions/ProjectRouter/switchTo.json)
 - `ProjectRouter/backToOriginalProject` — [schema](.agent/rules/system-functions/ProjectRouter/backToOriginalProject.json)
@@ -118,6 +113,28 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
 - `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
 - `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
+- `MathMCP/add` — [schema](.agent/rules/mcp-functions/MathMCP/add.json)
+- `MathMCP/subtract` — [schema](.agent/rules/mcp-functions/MathMCP/subtract.json)
+- `MathMCP/multiply` — [schema](.agent/rules/mcp-functions/MathMCP/multiply.json)
+- `MathMCP/division` — [schema](.agent/rules/mcp-functions/MathMCP/division.json)
+- `MathMCP/sum` — [schema](.agent/rules/mcp-functions/MathMCP/sum.json)
+- `MathMCP/modulo` — [schema](.agent/rules/mcp-functions/MathMCP/modulo.json)
+- `MathMCP/mean` — [schema](.agent/rules/mcp-functions/MathMCP/mean.json)
+- `MathMCP/median` — [schema](.agent/rules/mcp-functions/MathMCP/median.json)
+- `MathMCP/mode` — [schema](.agent/rules/mcp-functions/MathMCP/mode.json)
+- `MathMCP/min` — [schema](.agent/rules/mcp-functions/MathMCP/min.json)
+- `MathMCP/max` — [schema](.agent/rules/mcp-functions/MathMCP/max.json)
+- `MathMCP/floor` — [schema](.agent/rules/mcp-functions/MathMCP/floor.json)
+- `MathMCP/ceiling` — [schema](.agent/rules/mcp-functions/MathMCP/ceiling.json)
+- `MathMCP/round` — [schema](.agent/rules/mcp-functions/MathMCP/round.json)
+- `MathMCP/sin` — [schema](.agent/rules/mcp-functions/MathMCP/sin.json)
+- `MathMCP/arcsin` — [schema](.agent/rules/mcp-functions/MathMCP/arcsin.json)
+- `MathMCP/cos` — [schema](.agent/rules/mcp-functions/MathMCP/cos.json)
+- `MathMCP/arccos` — [schema](.agent/rules/mcp-functions/MathMCP/arccos.json)
+- `MathMCP/tan` — [schema](.agent/rules/mcp-functions/MathMCP/tan.json)
+- `MathMCP/arctan` — [schema](.agent/rules/mcp-functions/MathMCP/arctan.json)
+- `MathMCP/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathMCP/radiansToDegrees.json)
+- `MathMCP/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathMCP/degreesToRadians.json)
 
 ## Rules
 
