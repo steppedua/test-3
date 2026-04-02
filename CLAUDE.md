@@ -111,36 +111,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Telegram/sendButtons` — [schema](.agent/rules/system-functions/Telegram/sendButtons.json)
 - `Tts/synthesize` — [schema](.agent/rules/system-functions/Tts/synthesize.json)
 
-### MCP Functions
-
-JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
-
-- `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
-- `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
-- `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
-- `MathTools2/add` — [schema](.agent/rules/mcp-functions/MathTools2/add.json)
-- `MathTools2/subtract` — [schema](.agent/rules/mcp-functions/MathTools2/subtract.json)
-- `MathTools2/multiply` — [schema](.agent/rules/mcp-functions/MathTools2/multiply.json)
-- `MathTools2/division` — [schema](.agent/rules/mcp-functions/MathTools2/division.json)
-- `MathTools2/sum` — [schema](.agent/rules/mcp-functions/MathTools2/sum.json)
-- `MathTools2/modulo` — [schema](.agent/rules/mcp-functions/MathTools2/modulo.json)
-- `MathTools2/mean` — [schema](.agent/rules/mcp-functions/MathTools2/mean.json)
-- `MathTools2/median` — [schema](.agent/rules/mcp-functions/MathTools2/median.json)
-- `MathTools2/mode` — [schema](.agent/rules/mcp-functions/MathTools2/mode.json)
-- `MathTools2/min` — [schema](.agent/rules/mcp-functions/MathTools2/min.json)
-- `MathTools2/max` — [schema](.agent/rules/mcp-functions/MathTools2/max.json)
-- `MathTools2/floor` — [schema](.agent/rules/mcp-functions/MathTools2/floor.json)
-- `MathTools2/ceiling` — [schema](.agent/rules/mcp-functions/MathTools2/ceiling.json)
-- `MathTools2/round` — [schema](.agent/rules/mcp-functions/MathTools2/round.json)
-- `MathTools2/sin` — [schema](.agent/rules/mcp-functions/MathTools2/sin.json)
-- `MathTools2/arcsin` — [schema](.agent/rules/mcp-functions/MathTools2/arcsin.json)
-- `MathTools2/cos` — [schema](.agent/rules/mcp-functions/MathTools2/cos.json)
-- `MathTools2/arccos` — [schema](.agent/rules/mcp-functions/MathTools2/arccos.json)
-- `MathTools2/tan` — [schema](.agent/rules/mcp-functions/MathTools2/tan.json)
-- `MathTools2/arctan` — [schema](.agent/rules/mcp-functions/MathTools2/arctan.json)
-- `MathTools2/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathTools2/radiansToDegrees.json)
-- `MathTools2/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathTools2/degreesToRadians.json)
-
 ## Rules
 
 - Do NOT modify `manifest.yml` unless you know what you are doing.
