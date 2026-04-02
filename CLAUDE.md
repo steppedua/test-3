@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `test_llm_p1-1000001-PYI`
+- Project key: `test_llm_p1-1000001-kch`
 - Language: `en`
 - Engine version: `1`
 
