@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `p1_t-1000001-uPz`
+- Project key: `mcp_test1-1000001-eSZ`
 - Language: `en`
 - Engine version: `1`
 
@@ -113,28 +113,6 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
 - `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
 - `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
-- `MathTools/add` — [schema](.agent/rules/mcp-functions/MathTools/add.json)
-- `MathTools/subtract` — [schema](.agent/rules/mcp-functions/MathTools/subtract.json)
-- `MathTools/multiply` — [schema](.agent/rules/mcp-functions/MathTools/multiply.json)
-- `MathTools/division` — [schema](.agent/rules/mcp-functions/MathTools/division.json)
-- `MathTools/sum` — [schema](.agent/rules/mcp-functions/MathTools/sum.json)
-- `MathTools/modulo` — [schema](.agent/rules/mcp-functions/MathTools/modulo.json)
-- `MathTools/mean` — [schema](.agent/rules/mcp-functions/MathTools/mean.json)
-- `MathTools/median` — [schema](.agent/rules/mcp-functions/MathTools/median.json)
-- `MathTools/mode` — [schema](.agent/rules/mcp-functions/MathTools/mode.json)
-- `MathTools/min` — [schema](.agent/rules/mcp-functions/MathTools/min.json)
-- `MathTools/max` — [schema](.agent/rules/mcp-functions/MathTools/max.json)
-- `MathTools/floor` — [schema](.agent/rules/mcp-functions/MathTools/floor.json)
-- `MathTools/ceiling` — [schema](.agent/rules/mcp-functions/MathTools/ceiling.json)
-- `MathTools/round` — [schema](.agent/rules/mcp-functions/MathTools/round.json)
-- `MathTools/sin` — [schema](.agent/rules/mcp-functions/MathTools/sin.json)
-- `MathTools/arcsin` — [schema](.agent/rules/mcp-functions/MathTools/arcsin.json)
-- `MathTools/cos` — [schema](.agent/rules/mcp-functions/MathTools/cos.json)
-- `MathTools/arccos` — [schema](.agent/rules/mcp-functions/MathTools/arccos.json)
-- `MathTools/tan` — [schema](.agent/rules/mcp-functions/MathTools/tan.json)
-- `MathTools/arctan` — [schema](.agent/rules/mcp-functions/MathTools/arctan.json)
-- `MathTools/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathTools/radiansToDegrees.json)
-- `MathTools/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathTools/degreesToRadians.json)
 
 ## Rules
 
