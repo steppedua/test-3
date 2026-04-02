@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `kjhjbjhb-1000001-VfM`
+- Project key: `dasasd-1000001-jkY`
 - Language: `ru`
 - Engine version: `1`
 
@@ -110,14 +110,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Telegram/sendVoice` — [schema](.agent/rules/system-functions/Telegram/sendVoice.json)
 - `Telegram/sendButtons` — [schema](.agent/rules/system-functions/Telegram/sendButtons.json)
 - `Tts/synthesize` — [schema](.agent/rules/system-functions/Tts/synthesize.json)
-
-### MCP Functions
-
-JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
-
-- `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
-- `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
-- `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
 
 ## Rules
 
