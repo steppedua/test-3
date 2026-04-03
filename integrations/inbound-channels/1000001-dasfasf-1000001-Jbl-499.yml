@@ -1,9 +1,0 @@
----
-key: 1000001-dasfasf-1000001-Jbl-499
-credential-key: 1000001-asdas-jlm
-name: Телеграм
-type: TELEGRAM
-is-auto-deploy: true
-operator-channel-key: null
-settings:
-  type: TELEGRAM
