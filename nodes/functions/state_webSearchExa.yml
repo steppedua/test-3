@@ -1,28 +1,28 @@
 ---
-id: state_node_mcp2
-name: web_search_from_exa2
+id: state_webSearchExa
+name: web_search_exa
 position:
-  x: 700
-  y: 300
+  x: 1098
+  y: 333
 next-step: null
 parameters:
   function-id: web_search_exa
   type: MCP
-  collection-name: Exa_Search_2
-  is-tool: false
+  collection-name: Exa
+  is-tool: true
   parameters:
     query:
       type: STRING
-      value: null
-      filled-ai: false
+      value: "null"
+      filled-ai: true
     numResults:
-      type: STRING
-      value: null
-      filled-ai: false
+      type: NUMBER
+      value: "null"
+      filled-ai: true
     type:
       type: STRING
-      value: null
-      filled-ai: false
+      value: "null"
+      filled-ai: true
     freshness:
       type: STRING
       value: null
