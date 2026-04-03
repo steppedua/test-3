@@ -1,0 +1,8 @@
+---
+key: 1000001-qwe-xco
+credential-key: 1000001-qwe-pvr
+name: qwe
+host: 1.1.1.1
+port: 5060
+lines-available: 3
+accept-incoming: false
