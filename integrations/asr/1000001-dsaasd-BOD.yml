@@ -1,0 +1,8 @@
+---
+key: 1000001-dsaasd-BOD
+credential-key: 1000001-dasdas-ylx
+name: dsaasd
+provider-type: AZURE
+settings:
+  type: AZURE
+  languageCode: ru-RU
