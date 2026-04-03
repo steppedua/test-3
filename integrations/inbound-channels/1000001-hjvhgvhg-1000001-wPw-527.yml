@@ -1,0 +1,9 @@
+---
+key: 1000001-hjvhgvhg-1000001-wPw-527
+credential-key: 1000001-hgvhg-ytw
+name: Телеграм
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: TELEGRAM
