@@ -1,8 +1,0 @@
----
-key: 1000001-sadas-lbs
-credential-key: 1000001-sadas-dsu
-name: sadas
-host: mw21.ms
-port: 5060
-lines-available: 3
-accept-incoming: false

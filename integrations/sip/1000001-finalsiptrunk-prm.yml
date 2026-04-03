@@ -1,8 +1,0 @@
----
-key: 1000001-finalsiptrunk-prm
-credential-key: 1000001-finalsipcred-lie
-name: finalsiptrunk
-host: final.sip.test.com
-port: 5060
-lines-available: 3
-accept-incoming: false
