@@ -1,0 +1,9 @@
+---
+key: 1000001-asdasdas-1000001-kGD-383
+credential-key: 1000001-asdasd-ssp
+name: Телеграм
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: ALEXA
