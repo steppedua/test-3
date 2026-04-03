@@ -1,0 +1,10 @@
+---
+key: 1000001-dasdas-tbb
+credential-key: 1000001-asdas-oos
+name: dasdas
+host: asdsa.con
+port: 123
+sender: sadasd
+is-ssl-enabled: false
+is-tls-enabled: false
+is-direct-access: true
