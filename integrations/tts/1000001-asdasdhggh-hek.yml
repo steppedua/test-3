@@ -1,8 +1,0 @@
----
-key: 1000001-asdasdhggh-hek
-credential-key: 1000001-gcfdf-fpl
-name: asdasdhggh
-provider-type: AZURE
-settings:
-  type: AZURE
-  voiceName: af-ZA-AdriNeural
