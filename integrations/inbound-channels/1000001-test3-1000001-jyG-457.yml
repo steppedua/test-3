@@ -1,0 +1,9 @@
+---
+key: 1000001-test3-1000001-jyG-457
+credential-key: 1000001-asdasdas-pgl
+name: dsfwfw
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: TELEGRAM
