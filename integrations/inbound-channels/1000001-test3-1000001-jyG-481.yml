@@ -1,7 +1,7 @@
 ---
-key: 1000001-test3-1000001-jyG-464
+key: 1000001-test3-1000001-jyG-481
 credential-key: 1000001-asdasdas-pgl
-name: фывфыв
+name: Телеграм
 type: TELEGRAM
 is-auto-deploy: true
 operator-channel-key: null
