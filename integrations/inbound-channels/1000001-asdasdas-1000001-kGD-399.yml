@@ -1,0 +1,9 @@
+---
+key: 1000001-asdasdas-1000001-kGD-399
+credential-key: 1000001-fyvfyvfy-pis
+name: фыаффвфывфывфы
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: ALEXA
