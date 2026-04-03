@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `siptest1-1000001-rmZ`
+- Project key: `sadasd-1000001-NhO`
 - Language: `ru`
 - Engine version: `1`
 
@@ -97,14 +97,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Log/trace` — [schema](.agent/rules/system-functions/Log/trace.json)
 - `Log/warn` — [schema](.agent/rules/system-functions/Log/warn.json)
 - `Log/error` — [schema](.agent/rules/system-functions/Log/error.json)
-
-### MCP Functions
-
-JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
-
-- `Exa/web_search_exa` — [schema](.agent/rules/mcp-functions/Exa/web_search_exa.json)
-- `Exa/crawling_exa` — [schema](.agent/rules/mcp-functions/Exa/crawling_exa.json)
-- `Exa/get_code_context_exa` — [schema](.agent/rules/mcp-functions/Exa/get_code_context_exa.json)
 
 ## Rules
 

@@ -1,0 +1,8 @@
+---
+key: 1000001-emptysiptrunk-mxc
+credential-key: 1000001-emptysipcred-heh
+name: emptysiptrunk
+host: empty.sip.test.com
+port: 5060
+lines-available: 3
+accept-incoming: false
