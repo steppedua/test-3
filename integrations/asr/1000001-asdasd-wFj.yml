@@ -1,0 +1,8 @@
+---
+key: 1000001-asdasd-wFj
+credential-key: 1000001-asdasd-ite
+name: asdasd
+provider-type: AZURE
+settings:
+  type: AZURE
+  languageCode: ru-RU

@@ -1,0 +1,8 @@
+---
+key: 1000001-sadas-dcb
+credential-key: 1000001-sadas-pvl
+name: sadas
+host: mw21.ms
+port: 5060
+lines-available: 3
+accept-incoming: false

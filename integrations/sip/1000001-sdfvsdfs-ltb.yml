@@ -1,0 +1,8 @@
+---
+key: 1000001-sdfvsdfs-ltb
+credential-key: 1000001-sadcsc-pzv
+name: sdfvsdfs
+host: sip-test.example.com
+port: 5060
+lines-available: 3
+accept-incoming: false
