@@ -1,0 +1,9 @@
+---
+key: 1000001-asdasd-1000001-cYa-418
+credential-key: 1000001-asdasd-umo
+name: asdasdasa
+type: TELEGRAM
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: ALEXA
