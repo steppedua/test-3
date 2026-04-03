@@ -1,8 +1,0 @@
----
-key: 1000001-asdasdasdas-YJg
-credential-key: 1000001-asdas-mxi
-name: asdasdasdas
-provider-type: AZURE
-settings:
-  type: AZURE
-  voiceName: af-ZA-AdriNeural

@@ -1,9 +1,0 @@
----
-key: 1000001-asdsa-1000001-rWs-313
-credential-key: 1000001-asdasd-qhc
-name: sdasds
-type: TELEGRAM
-is-auto-deploy: true
-operator-channel-key: null
-settings:
-  type: ALEXA
