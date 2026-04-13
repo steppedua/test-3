@@ -1,8 +1,8 @@
 ---
-key: 1000001-zdvsdv-Ria
+key: 1000001-asdasd-JWR
 credential-key: 1000001-asdas-xvi
-name: zdvsdv
+name: asdasd
 provider-type: AZURE
 settings:
   type: AZURE
-  languageCode: ru-RU
+  voiceName: af-ZA-AdriNeural
