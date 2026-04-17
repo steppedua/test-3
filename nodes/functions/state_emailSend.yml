@@ -13,7 +13,7 @@ parameters:
   parameters:
     smtpIntegration:
       type: INTEGRATION_SMTP
-      value: "null"
+      value: null
       filled-ai: false
     recipients:
       type: ARRAY
