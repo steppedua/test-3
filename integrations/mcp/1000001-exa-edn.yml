@@ -1,6 +1,7 @@
 ---
-key: 1000001-exa-cpq
+key: 1000001-exa-edn
 credential-key: null
 name: Exa
 collection-name: Exa
 url: https://mcp.exa.ai/mcp
+origin-key: 1000001-exa-cpq

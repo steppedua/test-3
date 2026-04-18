@@ -202,8 +202,4 @@ Returns: Clean text content and metadata from the page(s).
 
 - `Amo_Crm.add_company_to_crm` — Adds a new company to amo CRM
   Directory: functions/Amo_Crm/add_company_to_crm/
-- `Amo_Crm.add_company_to_crm` — Adds a new company to amo CRM
-  Directory: functions/Amo_Crm/add_company_to_crm/
-- `Amo_Crm.add_company_to_crm` — Adds a new company to amo CRM
-  Directory: functions/Amo_Crm/add_company_to_crm/
 
