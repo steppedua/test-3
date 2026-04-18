@@ -1,0 +1,22 @@
+---
+id: state_webSearchExa
+name: web_search_exa
+position:
+  x: 1098
+  y: 333
+next-step: null
+parameters:
+  type: MCP
+  collection: Exa
+  function: web_search_exa
+  is-tool: true
+  parameters:
+    query:
+      type: STRING
+      value: "null"
+      filled-ai: true
+    numResults:
+      type: NUMBER
+      value: "null"
+      filled-ai: true
+  context-config: null
