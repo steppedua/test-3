@@ -1,0 +1,18 @@
+---
+id: state_addCompanyToCrm
+name: add_company_to_crm
+position:
+  x: 1439
+  y: 369
+next-step: null
+parameters:
+  type: USER
+  collection: Amo_Crm
+  function: add_company_to_crm
+  is-tool: true
+  parameters:
+    name:
+      type: STRING
+      value: "null"
+      filled-ai: false
+  context-config: null
