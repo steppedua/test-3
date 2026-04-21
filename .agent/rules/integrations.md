@@ -66,10 +66,8 @@ Unless the user explicitly asks for direct access, always use `is-direct-access:
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
- `is-current-account` | boolean | no | Whether the Knowledge Hub project belongs to the current account |  |
  `key` | string | yes | Unique integration key |  |
  `name` | string | yes | Human-readable integration name |  |
- `rag-project-id` | number | no | ID of the linked Knowledge Hub project |  |
 
 ## SIP (`integrations/sip/`)
 
