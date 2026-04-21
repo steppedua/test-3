@@ -66,6 +66,7 @@ Unless the user explicitly asks for direct access, always use `is-direct-access:
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
+ `is-current-account` | boolean | yes | Whether this integration uses the current account's KHub token |  |
  `key` | string | yes | Unique integration key |  |
  `name` | string | yes | Human-readable integration name |  |
 
